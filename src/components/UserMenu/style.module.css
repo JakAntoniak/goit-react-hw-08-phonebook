@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.logoutBtn {
+  max-width: 90px;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: rgb(109, 103, 100);
+  padding: 5px 10px;
+}
+
+.logoutBtn:hover,
+.logoutBtn:focus {
+  background-color: rgb(237, 83, 83);
+}

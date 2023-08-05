@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../images//phonebook.jpg');
+  background-position: center;
+  padding: 20px;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background: linear-gradient(115deg, #dcdfcf 10%, #dfcd28 90%);
+}
+
+.main-header {
+  margin: 50px auto 420px;
+  font-size: 48px;
+}
+
+.section-header {
+  margin: 0 auto 15px;
+  font-size: 25px;
+}
+
+.icon {
+  fill: black;
+}
+
+.icon:hover {
+  fill: #dac613;
+  cursor: pointer;
+}
+
+.social-media-section {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.social-media {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.social-media li {
+  margin: 0 10px;
+}
