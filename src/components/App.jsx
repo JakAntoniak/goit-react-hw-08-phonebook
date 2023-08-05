@@ -1,7 +1,5 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { getError, getIsLoading } from './Redux/contacts/selectors';
+import { useDispatch } from 'react-redux';
 import { useEffect, lazy } from 'react';
-import { fetchContacts } from './Redux/contacts/operations';
 import { Route, Routes } from 'react-router-dom';
 import { Layout } from './Layout/Layout';
 import { RestrictedRoute } from './RestrictedRoute/RestrictedRoute';
