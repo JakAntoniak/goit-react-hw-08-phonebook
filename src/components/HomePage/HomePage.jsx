@@ -1,5 +1,4 @@
 import css from './Style.module.css';
-import phonebookImage from '../../images/phonebook.jpg';
 
 const HomePage = () => {
   return (
@@ -9,7 +8,7 @@ const HomePage = () => {
       <div className={css['social-media-section']}>
         <ul className={css['social-media']}>
           <li>
-            <a href="https://linkedin.com" target="_blank">
+            <a href="https://linkedin.com">
               <svg
                 className={css.icon}
                 id="icon-linkedin"
@@ -26,7 +25,7 @@ const HomePage = () => {
             </a>
           </li>
           <li>
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://facebook.com">
               <svg
                 className={css.icon}
                 id="icon-facebook"
@@ -41,7 +40,7 @@ const HomePage = () => {
             </a>
           </li>
           <li>
-            <a href="https://instagram.com" target="_blank">
+            <a href="https://instagram.com">
               <svg
                 className={css.icon}
                 id="icon-instagram"
@@ -58,7 +57,7 @@ const HomePage = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com" target="_blank">
+            <a href="https://github.com">
               <svg
                 className={css.icon}
                 id="icon-github"
